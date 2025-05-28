@@ -1,0 +1,10 @@
+# Clone your repo
+git clone https://github.com/tugaycel/project.git
+cd project
+
+# Add the template as remote
+git remote add template https://github.com/mahirshahriar/closet-stylist-ai-template.git
+git pull template main --allow-unrelated-histories
+
+# Push to your repo
+git push origin main
